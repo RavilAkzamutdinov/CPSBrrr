@@ -1,4 +1,4 @@
-/* Обнуляющий стиль*/ 
+/* Обнуляющий стиль*/
 :focus, :active{outline: none;}
 a:focus, a:active{outline: none;}
 nav, footer, header, aside{display: block;}
@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: inherit;}
 button {padding: 0px;}
 p {margin-top: 10px;}
 
-/* Шрифт */ 
+/* Шрифт */
 
 @font-face {
     font-family: 'TT Lakes Condensed';
@@ -45,21 +45,6 @@ p {margin-top: 10px;}
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'TT Lakes Condensed';
-    src: url('../fonts/TTLakesCondensed-ExtraBold.woff');
-    src: local('TT Lakes Condensed ExtraBold'), local('TTLakesCondensed-ExtraBold'),
-        url('../fonts/TTLakesCondensed-ExtraBold.woff') format('woff');
-    font-weight: 800;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: 'TT Lakes';
-    src: url('../fonts/TTLakesCondensed-Italic.woff'),
-    url('../fonts/TTLakesCondensed-Italic.eot'),
-    url('../fonts/TTLakesCondensed-Italic.ttf');
-}
 
 body{
     height: 100%;
@@ -180,7 +165,7 @@ border: none;
     color: #7E7E82;
 }
 
-.menu-nav__link--active::before { 
+.menu-nav__link--active::before {
 content: "";
 height: 32px;
 align-self: center;

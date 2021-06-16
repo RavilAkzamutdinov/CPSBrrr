@@ -1,4 +1,4 @@
-/* Обнуляющий стиль*/ 
+/* Обнуляющий стиль*/
 :focus, :active{outline: none;}
 a:focus, a:active{outline: none;}
 nav, footer, header, aside{display: block;}
@@ -117,7 +117,6 @@ background-position: center;
 .cart-arrow:hover {
     background-color: #ff3e79;
     transition: 0.5s;
-    background-image: url("../img/btn/arrow-right-white.svg")
 }
 
 .pagination {
@@ -184,7 +183,7 @@ grid-template-areas:
 
 .swiper-container{
     display: none;
-    
+
 }
 }
 @media screen and (min-width: 1120px) {
