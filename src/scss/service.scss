@@ -9,14 +9,12 @@
     box-sizing: border-box;
     padding: 4px 15px;
     font-family: Lakes-bold;
-    background-image: url("../img/btn/arrow-right-white.svg");
     background-repeat: no-repeat;
     background-position: 90% 50%;
     cursor: pointer;
     &:hover {
       background-color: white;
       color: #ff3e79;
-      background-image: url("../img/btn/arrow-right.svg");
       border: 2px solid #ff3e79;
       transition: 0.5s;
     }
@@ -48,7 +46,6 @@
     height: 15px;
     left: 115px;
     top: 30px;
-    background-image: url("../img/btn/arrow-right.svg");
     background-repeat: no-repeat;
   }
   &:hover {
@@ -76,7 +73,7 @@
     &-btn {
       margin-left: auto;
     }
-    
+
   }
 
   .price__cart {

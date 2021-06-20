@@ -1,10 +1,5 @@
-
 import "../js/components/brands";
 
-console.log("Works!");
-
-
-import "../scss";
 import "../scss/header.scss";
 import "../scss/service.scss";
 import "../scss/modal.scss";
